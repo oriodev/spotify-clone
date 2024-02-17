@@ -9,6 +9,8 @@ interface SearchProps {
   };
 }
 
+export const revalidate = 0;
+
 // you can lit just draw out the searchParams with this prop - super cool !!
 const Search = async ({ searchParams }: SearchProps) => {
   // this finds songs by the title from searchParams
